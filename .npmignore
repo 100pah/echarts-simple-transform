@@ -1,0 +1,10 @@
+/build
+/npm-debug.log
+/src
+/node_modules
+tsconfig.json
+.DS_Store
+.eslintignore
+.eslintrc-common.yaml
+Thumbs.db
+Desktop.ini
