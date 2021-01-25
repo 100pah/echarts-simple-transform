@@ -35,7 +35,7 @@ import {
  *     ]
  * }, {
  *     transform: {
- *         type: 'my:id',
+ *         type: 'ecSimpleTransform:id',
  *         config: {
  *             dimensionIndex: 4,
  *             dimensionName: 'ID'

@@ -38,7 +38,7 @@ import { assert, hasOwn, quantile } from './util';
  *     ]
  * }, {
  *     transform: {
- *         type: 'my:aggregate',
+ *         type: 'ecSimpleTransform:aggregate',
  *         config: {
  *             resultDimensions: [
  *                 // by default, use the same name with `from`.
