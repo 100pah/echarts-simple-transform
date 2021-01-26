@@ -1,6 +1,6 @@
 {
   "name": "echarts-simple-transform",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Some simple data transforms for Apache ECharts 5",
   "license": "Apache-2.0",
   "main": "dist/ecSimpleTransform.js",
