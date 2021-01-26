@@ -53,10 +53,11 @@ myChart.setOption(option);
 Current supported `method`s (case insensitive):
 + 'sum'
 + 'count'
++ 'first'
 + 'average'
 + 'Q1'
-+ 'Q3'
 + 'Q2' or 'median'
++ 'Q3'
 + 'min'
 + 'max'
 

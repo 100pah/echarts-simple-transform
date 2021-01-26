@@ -60,16 +60,6 @@ import { assert, hasOwn, quantile } from './util';
  *     // ]
  * }]
  * ```
- *
- * Current supported methods (case insensitive):
- * 'sum'
- * 'count'
- * 'average'
- * 'Q1'
- * 'Q3'
- * 'Q2' or 'median'
- * 'min'
- * 'max'
  */
 
 export interface AggregateTransformOption extends DataTransformOption {
