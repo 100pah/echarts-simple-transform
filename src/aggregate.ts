@@ -495,8 +495,8 @@ const lineCreator: {
         groupByVal: OptionDataValue
     ) => OptionDataValue
 } = {
-    'SUM'() {
-        return 0;
+    'SUM'(upstream, dataIndex, dimInfo) {
+        return upstream.retrieveValue(dataIndex, dimInfo.indexInUpstream);
     },
     'COUNT'() {
         return 1;
