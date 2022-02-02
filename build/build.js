@@ -128,7 +128,7 @@ function createRollupConfig({ min } = {}) {
                             module: 'ES2015',
                             sourceMap: true,
                             // Use the esm d.ts
-                            declaration: false
+                            declaration: true
                         }
                         // include: include,
                         // exclude: exclude || []
